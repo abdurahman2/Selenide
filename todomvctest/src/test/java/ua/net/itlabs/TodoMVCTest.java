@@ -1,4 +1,4 @@
-package ua.net.itlabs;
+﻿package ua.net.itlabs;
 
 //import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.CollectionCondition;
@@ -23,7 +23,7 @@ public class TodoMVCTest {
 
     @Test
     public void testCreateTask() {
-//        Configuration.browser = "chrome";
+          Configuration.browser = "chrome";
 //        Configuration.timeout = 2000;
 
 // URL взят из видео - само видео https://drive.google.com/file/d/0B8hgIBw8-V-AXzJpV1k3Q25HSnc это расширенная версия этого https://www.youtube.com/watch?v=5c3z_iddWX0
